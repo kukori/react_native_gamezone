@@ -10,7 +10,9 @@ const ReviewDetails = ({navigation}) => {
 
     return (
         <View style={globalStyles.container}>
-            <Text>Review details</Text>
+            <Text>{navigation.getParam('title')}</Text>
+            <Text>{navigation.getParam('body')}</Text>
+            <Text>{navigation.getParam('rating')}</Text>
             <Button title="go back" onPress={onPress} />
         </View>
     )
