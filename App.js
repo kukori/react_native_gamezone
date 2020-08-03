@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigator from './components/routes/HomeStack';
+import Navigator from './components/routes/Drawer';
 import { AppLoading } from 'expo';
 import { useFonts } from 'expo-font';
 import { PressStart2P_400Regular } from '@expo-google-fonts/press-start-2p';
