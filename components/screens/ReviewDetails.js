@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, Button } from 'react-native';
+import Card from '../shared/Card';
 import globalStyles from '../styles/global';
 
 const ReviewDetails = ({navigation}) => {
@@ -10,9 +11,11 @@ const ReviewDetails = ({navigation}) => {
 
     return (
         <View style={globalStyles.container}>
-            <Text>{navigation.getParam('title')}</Text>
-            <Text>{navigation.getParam('body')}</Text>
-            <Text>{navigation.getParam('rating')}</Text>
+            <Card>
+                <Text>{navigation.getParam('title')}</Text>
+                <Text>{navigation.getParam('body')}</Text>
+                <Text>{navigation.getParam('rating')}</Text>
+            </Card>
             <Button title="go back" onPress={onPress} />
         </View>
     )
