@@ -6,7 +6,7 @@ import globalStyles from '../styles/global';
 const About = () => {
     return (
         <View style={globalStyles.container}>
-            <Text></Text>
+            <Text>wwwwwwwwwwwwwwwwww</Text>
         </View>
     )
 }
