@@ -13,6 +13,15 @@ export default globalStyles = StyleSheet.create({
     paragraph: {
         marginVertical: 8,
         lineHeight: 20
+    },
+    formInput: {
+        borderWidth: 1,
+        borderColor: '#ddd',
+        padding: 10,
+        fontSize: 18,
+        color: '#333',
+        borderRadius: 6,
+        marginVertical: 5,
     }
 });
 
