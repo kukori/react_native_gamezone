@@ -22,6 +22,11 @@ export default globalStyles = StyleSheet.create({
         color: '#333',
         borderRadius: 6,
         marginVertical: 5,
+    },
+    errorMessage: {
+        color: 'maroon',
+        fontFamily: 'PressStart2P_400Regular',
+        fontSize: 10,
     }
 });
 
