@@ -1,8 +1,9 @@
 import React from 'react';
-import { TextInput, View, Button, Text } from 'react-native';
+import { TextInput, View, Text } from 'react-native';
 import globalStyles from '../styles/global';
 import { Formik } from 'formik';
 import * as yup from 'yup';
+import Button from '../shared/Button';
 
 const reviewSchema = yup.object({
     title: yup.string()
